@@ -75,7 +75,6 @@ li {
 }
 
 .services-photo {
-    /* height: 77vh; */
     width: 50vw;
     border: 2px solid gray;
 }
@@ -86,7 +85,19 @@ li {
 }
 
 .snapshot {
-    height: 120vh;
+    height: 130vh;
+    display: flex;
+}
+
+.snapshot-photo {
+    height: 110vh;
+    width: 60vw;
+    border: 2px solid gray;
+}
+
+.snapshot-text {
+    width: 50vw;
+    text-align: left;
 }
 
 .recent-projects {
