@@ -1,0 +1,80 @@
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    margin: 0;
+}
+
+.title-page {
+    height: 130vh;
+    background-color: black;
+    width: 100vw;
+}
+
+nav {
+    width: 70vw;
+    margin-right: 5vw;
+    margin-left: 33vw;
+}
+
+.nav-ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+}
+
+li {
+    color: white;
+}
+
+.let {
+    height: 100vh;
+}
+
+.process {
+    height: 96vh;
+    border: 1px solid black;
+}
+
+.testimonials {
+    height: 70vh;
+}
+
+.services {
+    height: 99vh;
+    border: 1px solid black;
+}
+
+.snapshot {
+    height: 120vh;
+}
+
+.recent-projects {
+    height: 105vh;
+    border: 1px solid black;
+}
+
+.contact {
+    height: 120vh;
+}
+
+.contact-banner {
+    height: 40vh;
+    border: 1px solid red;
+}
+
+.form-container {
+    border: 5px solid green;
+}
+
+.mailing-list-banner {
+    height: 40vh;
+    border: 1px solid blue;
+}
+
+.footer {
+    height: 65vh;
+    border: 3px solid purple;
+    display: flex;
+}
