@@ -50,6 +50,18 @@ li {
 .process {
     height: 96vh;
     border: 1px solid black;
+    display: flex;
+}
+
+.process-photo {
+    /* height: 77vh; */
+    width: 50vw;
+    border: 2px solid gray;
+}
+
+.process-text {
+    width: 50vw;
+    text-align: left;
 }
 
 .testimonials {
