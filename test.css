@@ -3,6 +3,7 @@ body {
     flex-direction: column;
     width: 100vw;
     margin: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 .title-page {
