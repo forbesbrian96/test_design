@@ -13,13 +13,14 @@ body {
 
 nav {
     width: 70vw;
-    margin-right: 5vw;
+    margin-top: 20vh;
     margin-left: 33vw;
 }
 
 .nav-ul {
     display: flex;
     flex-direction: row;
+    margin-right: 5vw;
     justify-content: space-around;
     list-style: none;
 }
