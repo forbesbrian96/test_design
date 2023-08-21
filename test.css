@@ -133,4 +133,16 @@ li {
     height: 65vh;
     border: 3px solid purple;
     display: flex;
+    flex-direction: column;
+}
+
+.footer-column-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
 }
