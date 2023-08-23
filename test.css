@@ -140,13 +140,16 @@ p {
 
 .snapshot-photo {
     height: 110vh;
-    width: 60vw;
-    border: 2px solid gray;
+    width: 55vw;
+    margin-top: 10vh;
 }
 
 .snapshot-text {
     width: 50vw;
     text-align: left;
+    margin-top: 4vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
 }
 
 .recent-projects {
@@ -158,6 +161,28 @@ p {
 
 .project-container {
     display: flex;
+    height: 60vh;
+    position: relative;
+}
+
+.project-text {
+    position: absolute;
+    z-index: 1;
+    color: white;
+    width: 30%;
+    text-align: center;
+    padding: 2vw;
+    opacity: 0; /* Start with text hidden */
+    transition: opacity 0.3s ease; /* Smooth transition effect */
+}
+
+.project-text:hover {
+    opacity: 1; /* Show text on hover */
+}
+
+.project-photo {
+    height: 100%;
+    width: 100%;
 }
 
 .contact {
