@@ -81,7 +81,6 @@ p {
     margin-top: 10vh;
     margin-right: 0vw;
     margin-left: 10vw;
-    border: 2px solid gray;
 }
 
 .process {
@@ -91,14 +90,21 @@ p {
 }
 
 .process-photo {
-    /* height: 77vh; */
     width: 50vw;
-    border: 2px solid gray;
 }
 
 .process-text {
     width: 50vw;
     text-align: left;
+    padding-top: 5vh;
+    padding-right: 5vw;
+    padding-left: 5vw;
+    color: white;
+    background-color: #202525;
+}
+
+.stage {
+    color: #EF473A;
 }
 
 .testimonials {
