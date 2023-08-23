@@ -8,14 +8,21 @@ body {
 
 .title-page {
     height: 130vh;
-    background-color: black;
+    width: 100vw;
+    /* z-index: -1; */
+}
+
+.title-photo {
+    height: 130vh;
     width: 100vw;
 }
 
 nav {
     width: 70vw;
+    position: absolute;
     margin-top: 20vh;
     margin-left: 33vw;
+    z-index: 1;
 }
 
 .nav-ul {
@@ -24,6 +31,7 @@ nav {
     margin-right: 5vw;
     justify-content: space-around;
     list-style: none;
+    font-size: 2.75vh;
 }
 
 li {
