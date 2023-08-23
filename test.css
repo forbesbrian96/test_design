@@ -9,7 +9,6 @@ body {
 .title-page {
     height: 130vh;
     width: 100vw;
-    /* z-index: -1; */
 }
 
 .title-photo {
@@ -70,7 +69,7 @@ p {
 .red-link {
     background-color: #EF473A;
     color: white;
-    height: 5vh;
+    height: 4vh;
     padding: 2vh;
     font-size: 3vh;
 }
@@ -85,7 +84,6 @@ p {
 
 .process {
     height: 96vh;
-    border: 1px solid black;
     display: flex;
 }
 
@@ -156,7 +154,10 @@ p {
     height: 105vh;
     display: flex;
     flex-direction: column;
-    border: 1px solid black;
+}
+
+.projects-title {
+    text-align: center;
 }
 
 .project-container {
@@ -172,17 +173,27 @@ p {
     width: 30%;
     text-align: center;
     padding: 2vw;
-    opacity: 0; /* Start with text hidden */
-    transition: opacity 0.3s ease; /* Smooth transition effect */
+    opacity: 0; 
+    transition: opacity 0.3s ease;
 }
 
 .project-text:hover {
-    opacity: 1; /* Show text on hover */
+    opacity: 1;
 }
 
 .project-photo {
     height: 100%;
     width: 100%;
+}
+
+.red-link2 {
+    background-color: #EF473A;
+    color: white;
+    height: 4vh;
+    padding: 2vh;
+    font-size: 3vh;
+    width: 20vw;
+    margin: 6vh auto;
 }
 
 .contact {
