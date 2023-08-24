@@ -224,7 +224,77 @@ p {
 }
 
 .form-container {
+    margin-top: 4vh;
+    padding: 1vh;
     height: 100vh;
+    width: 66%; /* Make the form fill the left two-thirds */
+}
+
+h1 {
+    font-size: 3vh;
+    color: #EF473A;
+    text-align: left; /* Align the form title to the left */
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2vh;
+    align-items: flex-end; /* Align the labels to the left */
+}
+
+.input-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align the input labels to the left */
+}
+
+.red-line-input {
+    border: none;
+    border-bottom: 2px solid #EF473A;
+    background-color: transparent;
+    font-size: 2vh;
+    padding: 1vh 0;
+    margin-bottom: 1vh;
+    /* color: white; */ /* Remove color property to use default text color */
+    width: 90%; /* Adjusted width for better separation */
+}
+
+.full-width {
+    flex: 2;
+}
+
+.red-border-input {
+    border: 2px solid #EF473A;
+    background-color: transparent;
+    font-size: 2vh;
+    padding: 4vh 2vh; /* Increased padding for a taller textarea */
+    margin-bottom: 1vh;
+    /* color: white; */ /* Remove color property to use default text color */
+    resize: none; /* Prevent textarea resizing */
+    width: 100%; /* Adjusted width to match input lines */
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+}
+
+.red-border-input::placeholder {
+    /* color: white; */ /* Remove color property to use default text color */
+}
+
+label {
+    font-size: 2vh;
+    /* color: white; */ /* Remove color property to use default text color */
+    text-align: left; /* Align the labels to the left */
+}
+
+input[type="checkbox"] {
+    margin-right: 1vh;
+    vertical-align: middle;
 }
 
 .mailing-list-banner {
