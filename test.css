@@ -202,7 +202,25 @@ p {
 
 .contact-banner {
     height: 40vh;
-    border: 1px solid red;
+    position: relative;
+}
+
+.contact-banner-photo {
+    width: 100vw;
+    height: 40vh;
+}
+
+.contact-banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1; 
+    color: #EF473A;
+    font-size: 4rem;
+    text-align: center;
+    padding: 20px;
+    white-space: nowrap;
 }
 
 .form-container {
