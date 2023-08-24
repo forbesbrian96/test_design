@@ -233,19 +233,41 @@ p {
 }
 
 .footer {
-    height: 65vh;
-    border: 3px solid purple;
+    height: 57vh;
     display: flex;
     flex-direction: column;
+    background-color: #202525;
 }
 
 .footer-column-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    /* justify-content: space-around; */
+    margin-left: 10vw;
+    margin-bottom: 14vh;
+}
+
+.footer-column {
+    width: 20%;
+}
+
+.footer-title {
+    color: #EF473A;
+    font-size: 1.7em;
+    margin-left: 2.4vw;
+}
+
+.footer-title2 {
+    color: #EF473A;
+    font-size: 1.7em;
+}
+
+.footer-ul {
+    list-style: none;
 }
 
 .copyright {
     display: flex;
     justify-content: center;
+    color: white;
 }
