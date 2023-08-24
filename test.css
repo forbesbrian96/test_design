@@ -197,7 +197,7 @@ p {
 }
 
 .contact {
-    height: 120vh;
+    height: 180vh;
 }
 
 .contact-banner {
@@ -224,7 +224,7 @@ p {
 }
 
 .form-container {
-    border: 5px solid green;
+    height: 100vh;
 }
 
 .mailing-list-banner {
@@ -243,8 +243,9 @@ p {
     display: flex;
     flex-direction: row;
     /* justify-content: space-around; */
+    margin-top: 3vh;
     margin-left: 10vw;
-    margin-bottom: 14vh;
+    margin-bottom: 11vh;
 }
 
 .footer-column {
