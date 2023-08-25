@@ -445,6 +445,34 @@ input[type="checkbox"] {
     list-style: none;
 }
 
+.social-icon {
+    display: inline-block; 
+    margin-right: 10px; 
+    max-width: 30px; 
+    max-height: 30px; 
+}
+
+.footer-ul .social-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px; 
+    vertical-align: middle;
+}
+
+.footer-ul .icon-text {
+    font-size: 2.75vh;
+    margin-top: 1vh;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.footer-ul .icon-text img {
+    width: 30px; 
+    height: 30px; 
+    margin-right: 10px; 
+}
+
 .copyright {
     display: flex;
     justify-content: center;
