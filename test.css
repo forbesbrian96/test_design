@@ -107,7 +107,45 @@ p {
 
 .testimonials {
     height: 70vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.carousel-images img {
+    display: none;
+}
+
+.carousel-images img:first-of-type {
+    display: block;
+    margin: 0 auto;
+    padding-top: 5vh;
+}
+
+.carousel-button-previous,
+.carousel-button-next {
+    width: 5vw;
+    height: 5vw;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.carousel-button-previous img,
+.carousel-button-next img {
+    width: 100%; /* Make the images inside buttons fill their containers */
+    height: 100%;
+}
+
+.carousel-button-previous {
+    left: 15vw;
+}
+
+.carousel-button-next {
+    right: 15vw;
+}
+
 
 .services {
     height: 99vh;
