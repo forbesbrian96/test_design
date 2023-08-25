@@ -225,15 +225,15 @@ p {
 
 .form-container {
     margin-top: 4vh;
+    margin-left: 4vw;
     padding: 1vh;
     height: 100vh;
-    width: 66%; /* Make the form fill the left two-thirds */
+    width: 66%; 
 }
 
 h1 {
-    font-size: 3vh;
-    color: #EF473A;
-    text-align: left; /* Align the form title to the left */
+    font-size: 6vh;
+    text-align: left; 
 }
 
 .contact-form {
@@ -245,14 +245,23 @@ h1 {
     display: flex;
     justify-content: space-between;
     margin-bottom: 2vh;
-    align-items: flex-end; /* Align the labels to the left */
+    align-items: flex-end; 
 }
 
 .input-group {
     flex: 1;
     display: flex;
     flex-direction: column;
-    align-items: flex-start; /* Align the input labels to the left */
+    align-items: flex-start; 
+}
+
+.checkbox {
+    white-space: no;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    margin-bottom: 8vh;
 }
 
 .red-line-input {
@@ -262,8 +271,7 @@ h1 {
     font-size: 2vh;
     padding: 1vh 0;
     margin-bottom: 1vh;
-    /* color: white; */ /* Remove color property to use default text color */
-    width: 90%; /* Adjusted width for better separation */
+    width: 90%; 
 }
 
 .full-width {
@@ -274,22 +282,16 @@ h1 {
     border: 2px solid #EF473A;
     background-color: transparent;
     font-size: 2vh;
-    padding: 4vh 2vh; /* Increased padding for a taller textarea */
+    padding: 4vh 2vh; 
     margin-bottom: 1vh;
-    /* color: white; */ /* Remove color property to use default text color */
-    resize: none; /* Prevent textarea resizing */
-    width: 100%; /* Adjusted width to match input lines */
-    box-sizing: border-box; /* Include padding and border in the width calculation */
-}
-
-.red-border-input::placeholder {
-    /* color: white; */ /* Remove color property to use default text color */
+    resize: none;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 label {
     font-size: 2vh;
-    /* color: white; */ /* Remove color property to use default text color */
-    text-align: left; /* Align the labels to the left */
+    text-align: left; 
 }
 
 input[type="checkbox"] {
@@ -297,9 +299,67 @@ input[type="checkbox"] {
     vertical-align: middle;
 }
 
+.red-link3 {
+    background-color: #EF473A;
+    color: white;
+    height: 8vh;
+    padding: 2vh;
+    font-size: 3vh;
+    width: 20vw;
+    margin: 6vh auto;
+}
+
+.contact-banner2 {
+    height: 40vh;
+    position: relative;
+    top: -3%;
+}
+
 .mailing-list-banner {
     height: 40vh;
-    border: 1px solid blue;
+}
+
+.contact-banner-text2 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1; 
+    color: #EF473A;
+    font-size: 3rem;
+    text-align: center;
+    padding: 20px;
+    white-space: nowrap;
+}
+
+.mailing-list-form {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.mailing-list-form input[type="text"] {
+    border: 2px solid black;
+    background-color: white;
+    font-size: 2vh;
+    padding: 1vh 1vw;
+    margin-right: 3vw;
+    flex-grow: 1;
+    height: 6vh; 
+}
+
+.mailing-list-form button {
+    background-color: #EF473A;
+    color: white;
+    height: 8vh;
+    padding: 2vh 2vw;
+    font-size: 3vh;
+    border: none;
 }
 
 .footer {
@@ -312,7 +372,6 @@ input[type="checkbox"] {
 .footer-column-container {
     display: flex;
     flex-direction: row;
-    /* justify-content: space-around; */
     margin-top: 3vh;
     margin-left: 10vw;
     margin-bottom: 11vh;
