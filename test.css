@@ -138,6 +138,19 @@ p {
     height: 100%;
 }
 
+.carousel-button-previous::before {
+    content: '';
+    background-image: url('/Users/brian/Desktop/test-icons/start-quote.png');
+    background-size: cover; /* Adjust as needed */
+    background-repeat: no-repeat;
+    display: block;
+    width: 5vw; /* Adjust the width as needed */
+    height: 5vw; /* Adjust the height as needed */
+    position: absolute;
+    bottom: 15vh; /* Position it slightly above the back button */
+    left: 0; /* Position it at the left of the back button */
+}
+
 .carousel-button-previous {
     left: 15vw;
 }
@@ -146,6 +159,18 @@ p {
     right: 15vw;
 }
 
+    .carousel-button-next::after {
+        content: '';
+        background-image: url('/Users/brian/Desktop/test-icons/end-quote.png');
+        background-size: cover; /* Adjust as needed */
+        background-repeat: no-repeat;
+        display: block;
+        width: 5vw; /* Adjust the width as needed */
+        height: 5vw; /* Adjust the height as needed */
+        position: absolute;
+        top: 15vh; /* Position it slightly below the forward button */
+        right: 0; /* Position it at the right of the forward button */
+    }
 
 .services {
     height: 99vh;
