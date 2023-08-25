@@ -8,7 +8,13 @@
     <link rel="stylesheet" href="test.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-      </style>
+    </style>
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"
+></script>
+<script src="test.js" charset="utf-8"></script>
 </head>
 
 <body>
@@ -26,6 +32,8 @@
             </ul>
         </nav>
 
+        <img src="/Users/brian/Desktop/test-pics/book.jpg" alt="book" class="title-photo" />
+
     </section>
 
     <section class='let'>
@@ -33,14 +41,18 @@
         <div class="let-left">
 
             <div class="let-text">
-            <h2> LET M3 AFRICA MANAGE YOUR PROJECT </h2>
+                <h2> LET M3 AFRICA MANAGE YOUR PROJECT </h2>
 
-            <p> We are experienced and reliable Project Masters with a global mindset and a wealth of local experiences.
-                M3 Africa has the ability to be responsive to emerging trends, and provides bespoke, custom services in
-                an ever-evolving industry. As Project Masters, every project is given superior attention to detail and
-                we pride ourselves on having sharp minds at the heart of our planning. Our bold, empathetic designs
-                showcase the strength in our services and allows our team to be progressive in our project management
-                systems and approach.</p>
+                <p> We are experienced and reliable Project Masters with a global mindset and a wealth of local
+                    experiences.
+                    M3 Africa has the ability to be responsive to emerging trends, and provides bespoke, custom services
+                    in
+                    an ever-evolving industry. As Project Masters, every project is given superior attention to detail
+                    and
+                    we pride ourselves on having sharp minds at the heart of our planning. Our bold, empathetic designs
+                    showcase the strength in our services and allows our team to be progressive in our project
+                    management
+                    systems and approach.</p>
 
             </div>
 
@@ -50,17 +62,17 @@
 
         </div>
 
-        <div class="let-photo">PHOTO HERE</div>
+        <img src="/Users/brian/Desktop/test-pics/exterior.jpg" alt="exterior" class="let-photo" />
 
     </section>
 
     <section class='process'>
 
-        <div class="process-photo">PHOTO HERE</div>
+        <img src="/Users/brian/Desktop/test-pics/plans.jpg" alt="plans" class="process-photo" />
 
         <div class="process-text">
 
-            <h2> THE PROJECT PROCESS: </h2>
+            <h2 class="stage">THE PROJECT PROCESS: </h2>
 
             <p>
                 <span class='stage'>STAGE 1: </span>Understand the concept - when a project is conceptualised, we've got
@@ -88,23 +100,36 @@
     </section>
 
     <section class='testimonials'>
-        TESTIMONIALS
+
+        <div class="carousel-button-previous">
+            <img src="back.png" alt="back" />
+        </div>
+        
+        <div class="carousel-images">
+            <img src="/Users/brian/Desktop/test-pics/testimonial1.jpg" />
+            <img src="/Users/brian/Desktop/test-pics/testimonial2.jpg" />
+            <img src="/Users/brian/Desktop/test-pics/testimonial3.jpg" />
+        </div>
+
+        <div class="carousel-button-next">
+            <img src="forward.png" alt="forward" />
+        </div>
+
     </section>
 
     <section class='services'>
 
-        <div class="services-photo">PHOTO HERE</div>
+        <img src="/Users/brian/Desktop/test-pics/map.jpg" alt="map" class="services-photo" />
 
         <div class="services-text">
 
-            <!-- NOTE: 1 PX OF GRAY ON BOTTOM AND LEFT OF THIS TEXT SECTION -->
+            <h2 class="stage"> SERVICES THAT GO ABOVE AND BEYOND </h2>
 
-            <h2> SERVICES THAT GO ABOVE AND BEYOND </h2>
-
-            <p> Our core service offering is Project Management. Where our clients require more, we do offer additional
+            <p class="services-p"> Our core service offering is Project Management. Where our clients require more, we
+                do offer additional
                 services and these have included:</p>
 
-            <ul>
+            <ul class="red-triangles">
                 <li> Specialist project programming </li>
                 <li> NEC 3 Contract Management </li>
                 <li> Expert witness services in legal disputes </li>
@@ -119,84 +144,215 @@
     </section>
 
     <section class='snapshot'>
-    
-        <div class="snapshot-photo">PHOTO HERE</div>
-    
+
+        <img src="/Users/brian/Desktop/test-pics/night-city.jpg" alt="night-city" class="snapshot-photo" />
+
         <div class="snapshot-text">
-    
-            <h2> A SNAPSHOT OF OUR PORTFOLIO </h2>
-    
-            <div class='portfolio-tags'> RETAIL </div>
-            <div class='portfolio-tags'> HEALTH CARE </div>
-            <div class='portfolio-tags'> COMMERCIAL </div>
-            <div class='portfolio-tags'> SPORTS & LEISURE </div>
-            <div class='portfolio-tags'> INDUSTRIAL </div>
-            <div class='portfolio-tags'> MIXED-USE </div>
-            <div class='portfolio-tags'> RESIDENTIAL </div>
-    
+
+            <h2 class="stage"> A SNAPSHOT OF <br> OUR PORTFOLIO </h2>
+
+            <div class='portfolio-tags'>
+
+                <div class='portfolio-tag'>
+                    <img src="/Users/brian/Desktop/test-icons/retail.png" alt="retail">
+                    <p>RETAIL</p>
+                </div>
+
+                <div class='portfolio-tag'>
+                    <img src="/Users/brian/Desktop/test-icons/health.png" alt="healthcare">
+                    <p>HEALTH CARE</p>
+                </div>
+
+                <div class='portfolio-tag'>
+                    <img src="/Users/brian/Desktop/test-icons/commercial.png" alt="commercial">
+                    <p>COMMERCIAL</p>
+                </div>
+
+                <div class='portfolio-tag'>
+                    <img src="/Users/brian/Desktop/test-icons/sports.png" alt="sports">
+                    <p>SPORTS & LEISURE</p>
+                </div>
+
+                <div class='portfolio-tag'>
+                    <img src="/Users/brian/Desktop/test-icons/industrial.png" alt="industrial">
+                    <p>INDUSTRIAL</p>
+                </div>
+
+                <div class='portfolio-tag'>
+                    <img src="/Users/brian/Desktop/test-icons/mixed-use.png" alt="mixed-use">
+                    <p>MIXED-USE</p>
+                </div>
+
+                <div class='portfolio-tag'>
+                    <img src="/Users/brian/Desktop/test-icons/residential.png" alt="residential">
+                    <p>RESIDENTIAL</p>
+                </div>
+
+            </div>
         </div>
-    
     </section>
 
     <section class='recent-projects'>
 
-        <h2> OUR RECENT PROJECTS </h2>
+        <h2 class="projects-title"> OUR RECENT PROJECTS </h2>
 
         <div class='project-container'>
             <div class='project'>
 
-                <h3> THE PENCIL CLUB </h3>
+                <div class="project-text">
 
-                <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias delectus voluptates quae sint
-                    rem laudantium suscipit quo consectetur aperiam dolore tempora nisi, animi totam nobis quasi
-                    iusto sunt illo unde?</p>
+                    <h2> THE PENCIL CLUB </h2>
 
-            </div>
-            <div class='project'>
+                    <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias delectus voluptates quae sint
+                        rem laudantium suscipit quo consectetur aperiam dolore tempora nisi, animi totam nobis quasi
+                        iusto sunt illo unde?</p>
 
-                <h3> LA LUCIA MALL </h3>
+                </div>
 
-                <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias delectus voluptates quae sint
-                    rem laudantium suscipit quo consectetur aperiam dolore tempora nisi, animi totam nobis quasi
-                    iusto sunt illo unde?</p>
+                <img src="/Users/brian/Desktop/test-pics/statue.jpg" alt="statue" class="project-photo" />
 
             </div>
             <div class='project'>
 
-                <h3> DURBAN CHRISTIAN CENTRE </h3>
+                <div class="project-text">
 
-                <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias delectus voluptates quae sint
-                    rem laudantium suscipit quo consectetur aperiam dolore tempora nisi, animi totam nobis quasi
-                    iusto sunt illo unde?</p>
+                    <h2> LA LUCIA MALL </h2>
+
+                    <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias delectus voluptates quae sint
+                        rem laudantium suscipit quo consectetur aperiam dolore tempora nisi, animi totam nobis quasi
+                        iusto sunt illo unde?</p>
+
+                </div>
+
+                <img src="/Users/brian/Desktop/test-pics/mall.jpg" alt="mall" class="project-photo" />
+
+            </div>
+            <div class='project'>
+
+                <div class="project-text">
+
+                    <h2> DURBAN CHRISTIAN CENTRE </h2>
+
+                    <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias delectus voluptates quae sint
+                        rem laudantium suscipit quo consectetur aperiam dolore tempora nisi, animi totam nobis quasi
+                        iusto sunt illo unde?</p>
+
+                </div>
+
+                <img src="/Users/brian/Desktop/test-pics/glass.jpg" alt="glass" class="project-photo" />
 
             </div>
         </div>
 
-        <a> VIEW OUR FULL PORTFOLIO </a>
+        <a class="red-link2"> VIEW OUR FULL PORTFOLIO </a>
 
     </section>
 
     <section class='contact'>
 
-        <div class='contact-banner'>TALK TO THE TEAM THAT DELIVERS</div>
+        <div class='contact-banner'>
 
-        <div class='form-container'>
-            <form class='contact-form'>FORM</form>
+            <div class="contact-banner-text">TALK TO THE TEAM THAT DELIVERS</div>
+
+            <img src="/Users/brian/Desktop/test-pics/stone.jpg" alt="stone" class="contact-banner-photo" />
+
         </div>
 
-        <div class='mailing-list-banner'>SUBSCRIBE TO OUR MAILING LIST</div>
+        <div class='form-container'>
+
+            <h1>GET IN TOUCH</h1>
+
+            <form class='contact-form'>
+
+                <div class="form-row">
+
+                    <div class="input-group">
+                        <label for="first-name">First name: *</label>
+                        <input type="text" id="first-name" name="first-name" class="red-line-input" />
+                    </div>
+
+                    <div class="input-group">
+                        <label for="last-name">Surname: *</label>
+                        <input type="text" id="last-name" name="last-name" class="red-line-input" />
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="input-group">
+                        <label for="email">Email address: *</label>
+                        <input type="text" id="email" name="email" class="red-line-input" />
+                    </div>
+
+                    <div class="input-group">
+                        <label for="contact-number">Contact number: *</label>
+                        <input type="text" id="contact-number" name="contact-number" class="red-line-input" />
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="input-group">
+                        <label for="location">Current Location: *</label>
+                        <input type="text" id="location" name="location" class="red-line-input" />
+                    </div>
+
+                    <div class="input-group">
+                        <label for="hear-about-us">How did you hear about us? *</label>
+                        <input type="text" id="hear-about-us" name="hear-about-us" class="red-line-input" />
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="input-group full-width">
+                        <textarea id="message" name="message" class="red-border-input" placeholder="Message"></textarea>
+                    </div>
+                </div>
+
+                <div class="form-row">
+
+                    <div class="checkbox">
+
+                        <label>
+                            <input type="checkbox" name="privacy-policy" id="privacy-policy" />
+                            By submitting your details, you agree to our privacy policy and terms of use.
+                        </label>
+                    </div>
+
+                    <div class="input-group">
+                        <button type="submit" class="red-link3">SUBMIT ENQUIRY</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <div class="contact-banner2">
+
+            <div class="contact-banner-text2">SUBSCRIBE TO OUR MAILING LIST</div>
+
+            <form class="mailing-list-form">
+
+                <input type="text" placeholder="NAME AND SURNAME">
+
+                <input type="text" placeholder="EMAIL ADDRESS">
+
+                <button type="submit" class="red-link3">SUBSCRIBE</button>
+
+            </form>
+
+            <img src="/Users/brian/Desktop/test-pics/stone.jpg" alt="stone" class="contact-banner-photo" />
+
+        </div>
 
     </section>
 
-    <section class='footer'>
-    
+    <section class="footer">
+
         <div class="footer-column-container">
-    
-            <div class='footer-column'>
-    
-                <h4> NAVIGATE </h4>
-    
-                <ul>
+
+            <div class="footer-column">
+
+                <h3 class="footer-title"> NAVIGATE </h3>
+
+                <ul class="footer-ul">
                     <li> Home </li>
                     <li> About us </li>
                     <li> Projects </li>
@@ -204,58 +360,55 @@
                     <li> Contact us </li>
                 </ul>
             </div>
-    
-            <div class='footer-column'>
-    
-                <h4> POLICY </h4>
-    
-                <ul>
+
+            <div class="footer-column">
+                <h3 class="footer-title"> POLICY </h3>
+                <ul class="footer-ul">
                     <li> Privacy policy </li>
                     <li> Terms and conditions </li>
                 </ul>
             </div>
-    
-            <div class='footer-column'>
-    
-                <h4> FOLLOW US </h4>
-    
-                <ul>
-                    <li>
-                        <a>Facebook</a>
-                    </li>
-                    <li>
-                        <a>Instagram</a>
-                    </li>
-                    <li>
-                        <a>LinkedIn</a>
-                    </li>
-                    <li>
-                        <a>Youtube</a>
-                    </li>
+
+            <div class="footer-column">
+                <h3 class="footer-title2"> FOLLOW US </h3>
+                <ul class="footer-ul">
+                    <li><img class="social-icon" src="facebook.png" alt="Facebook"> Facebook</li>
+                    <li><img class="social-icon" src="instagram.png" alt="Instagram"> Instagram</li>
+                    <li><img class="social-icon" src="linked-in.png" alt="LinkedIn"> LinkedIn</li>
+                    <li><img class="social-icon" src="youtube.png" alt="Youtube"> Youtube</li>
                 </ul>
             </div>
-    
-            <div class='footer-column'>
-    
-                <h4> CONTACT US </h4>
-    
-                <ul>
-                    <li>
-                        info@m3africa.com
-                    </li>
-                    <li>
-                        Ground Floor, Innova Haus, Marine Walk, 1 Salta Boulevard, Jabu Ngcobo Drive, Umdloti, 4320
-                    </li>
+
+            <div class="footer-column">
+                <h3 class="footer-title2"> CONTACT US </h3>
+                <ul class="footer-ul">
+                    <li class="icon-text"><img src="mail.png" alt="Mail Icon"> info@m3africa.com</li>
+                    <li class="icon-text"><img src="location.png" alt="Location Icon"> Ground Floor, Innova Haus, Marine
+                        Walk, 1 Salta Boulevard, Jabu Ngcobo Drive, Umdloti, 4320</li>
                 </ul>
             </div>
-    
         </div>
-    
+
         <div class="copyright">
             <p> Copyright 2023. All rights reserved. Powered by Rainmaker Marketing. </p>
         </div>
-    
     </section>
+
+    <!-- <section>
+        
+        <div class="fake">
+
+            <h1 class="fake-title">TESTIMONIAL 3</h1>
+
+            <p class="fake-testimonial">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos, eum provident. Tempore, quod sapiente. Nihil aut alias, quos repudiandae, velit, ipsum numquam quo odit possimus suscipit autem est. Pariatur, adipisci.
+            </p>
+
+            <p class="fake-person">
+                Fake Felipe, Fake Doctor at Fake Evil Laboratories 
+            </p>
+        </div>
+    </section> -->
 
 </body>
 
