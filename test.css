@@ -131,6 +131,27 @@ p {
     text-align: left;
 }
 
+ul.red-triangles {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+ul.red-triangles li::before {
+    content: '';
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 10px solid red;
+    margin-right: 10px;
+}
+
+ul.red-triangles li {
+    font-size: 3vh;
+    margin-bottom: .4em;
+}
+
 .snapshot {
     height: 130vh;
     display: flex;
